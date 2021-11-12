@@ -62,7 +62,7 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        // write your code here
+        
         Questions ob1 = new Questions(1,"To repeat a statement multiple times.", false);
         Questions ob2 = new Questions(2,"To decompose a program into several small subroutines.", true);
         Questions ob3 = new Questions(3,"To determine the execution time of a program.", false);
@@ -89,6 +89,6 @@ public class SimpleBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!");
     }
 }
